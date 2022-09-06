@@ -1,0 +1,25 @@
+body    {
+    padding: 5mm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span    {
+     color:#000001; 
+     font-size:11pt; 
+     text-decoration:underline; 
+     background-color:#ffffff;
+     text-align: justify;
+     font-weight: bold;
+}
+h1  {
+    font-size: 16pt;
+    text-align: center;
+}
+h2 {
+    font-size: 11pt;
+    text-align: center;
+}
+p   {
+    font-size: 11pt;
+    text-align: justify;
+    line-height: 1.5;
+}

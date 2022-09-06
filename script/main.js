@@ -1,1 +1,0 @@
-<input type="submit" target="_blank" name="commit" value="Search" class="button">
