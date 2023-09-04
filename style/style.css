@@ -6,64 +6,77 @@ body, h1, h2, p, label {
 
 /* Estilo global da página */
 body {
-    font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(to bottom, #ff00ff, #000000);
-    color: #00ff00;
-    text-shadow: 1px 1px 2px #00ff00;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
 /* Estilo do cabeçalho */
 header {
-    background-color: #000000;
-    color: #ff00ff;
+    background-color: #333;
+    color: #fff;
     text-align: center;
     padding: 20px;
-    border-bottom: 2px solid #00ff00;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo do formulário e do campo de conjunto */
-#area {
+/* Estilo do contêiner */
+.container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilo do campo de conjunto */
-.grupo {
+/* Estilo do campo de entrada e rótulo */
+.input-group {
     margin-bottom: 20px;
 }
 
-/* Estilo dos rótulos */
 label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #ff00ff;
-    text-shadow: none;
+    color: #333;
 }
 
-/* Estilo dos campos de entrada de texto */
 input[type="text"] {
     width: 100%;
     padding: 10px;
-    border: 2px solid #00ff00;
-    border-radius: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     font-size: 16px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #00ff00;
-    max-width: 95%;
+}
+
+/* Estilo do grupo de data */
+.date-group {
+    margin-bottom: 20px;
+}
+
+.date-group h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.date-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-inputs input {
+    flex: 1;
 }
 
 /* Estilo do botão de envio */
 input[type="submit"] {
-    background-color: #00ff00;
-    color: #000000;
+    background-color: #333;
+    color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -71,5 +84,5 @@ input[type="submit"] {
 
 /* Estilo do botão de envio ao passar o mouse */
 input[type="submit"]:hover {
-    background-color: #ff00ff;
+    background-color: #555;
 }

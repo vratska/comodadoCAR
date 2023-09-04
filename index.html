@@ -4,92 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contrato de Comodato (CAR)</title>
-    <link href="style/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <style>
-        /* Adicione seus estilos CSS aqui */
-    </style>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Contrato de Comodato (CAR)</h1>
     </header>
-    <div id="area">
+    <div class="container">
         <form id="formulario" action="result.html" method="GET">
-            <fieldset>
-                <legend>Dados do Contrato</legend>
-                
-                <div class="grupo">
+            <div class="section">
+                <h2>Dados do Contrato</h2>
+                <div class="input-group">
                     <label for="comodante">Comodante:</label>
                     <input type="text" id="comodante" name="comodante" placeholder="Comodante">
                 </div>
                 
-                <div class="grupo">
+                <div class="input-group">
                     <label for="comodantecpf">Comodante CPF:</label>
                     <input type="text" id="comodantecpf" name="comodantecpf" placeholder="Comodante CPF">
                 </div>
                 
-                <div class="grupo">
+                <div class="input-group">
                     <label for="comodanteendereco">Comodante Endereço:</label>
                     <input type="text" id="comodanteendereco" name="comodanteendereco" placeholder="Comodante Endereço">
                 </div>
-                
-                <div class="grupo">
+            </div>
+            
+            <div class="section">
+                <h2>Informações do Comandatário</h2>
+                <div class="input-group">
                     <label for="comandatario">Comandatário:</label>
-                    <input type="text" id="comandatario" name="comandatario"  placeholder="Comandatário">
+                    <input type="text" id="comandatario" name="comandatario" placeholder="Comandatário">
                 </div>
                 
-                <div class="grupo">
+                <div class="input-group">
                     <label for="comandatariocpf">Comandatário CPF:</label>
                     <input type="text" id="comandatariocpf" name="comandatariocpf" placeholder="Comandatário CPF">
                 </div>
                 
-                <div class="grupo">
+                <div class="input-group">
                     <label for="comandatarioendereco">Comandatário Endereço:</label>
                     <input type="text" id="comandatarioendereco" name="comandatarioendereco" placeholder="Comandatário Endereço">
                 </div>
-                
-                <div class="grupo">
+            </div>
+            
+            <div class="section">
+                <h2>Detalhes do Contrato</h2>
+                <div class="input-group">
                     <label for="terrahec">Hectares Cedidos:</label>
                     <input type="text" id="terrahec" name="terrahec" placeholder="Hectares Cedidos">
                 </div>
                 
-                <div class="grupo">
+                <div class="input-group">
                     <label for="localterra">Local da Terra:</label>
                     <input type="text" id="localterra" name="localterra" placeholder="Local da Terra">
                 </div>
                 
-                <div class="grupo">
+                <div class="input-group">
                     <label for="car">Registro CAR:</label>
                     <input type="text" id="car" name="car" placeholder="Registro CAR">
                 </div>
-                
-                <div class="grupo">
+            </div>
+            
+            <div class="section">
+                <h2>Outras Informações</h2>
+                <div class="input-group">
                     <label for="conjuge">Conjuge:</label>
                     <input type="text" id="conjuge" name="conjuge" placeholder="Conjuge">
                 </div>
                 
-                <div class="grupo">
+                <div class="input-group">
                     <label for="tempoterra">Ano que começou a trabalhar na terra:</label>
                     <input type="text" id="tempoterra" name="tempoterra" placeholder="Ano que começou a trabalhar na terra">
                 </div>
                 
-                <div class="grupo">
+                <div class="input-group">
                     <label for="tempocontrato">Tempo de duração do contrato:</label>
                     <input type="text" id="tempocontrato" name="tempocontrato" placeholder="Tempo de duração do contrato">
                 </div>
                 
-                <div class="grupo">
-                    <label>Data:</label><br>
-                    Dia: <input type="text" id="dia" name="dia" placeholder="Dia"> 
-                    Mês: <input type="text" id="mes" name="mes" placeholder="Mês"> 
-                    Ano: <input type="text" id="ano" name="ano" placeholder="Ano">
-                </div> 
+                <div class="date-group">
+                    <h2>Data:</h2>
+                    <div class="date-inputs">
+                        <input type="text" name="dia" placeholder="Dia">
+                        <input type="text" name="mes" placeholder="Mês">
+                        <input type="text" name="ano" placeholder="Ano">
+                    </div>
+                </div>
                 
-                <div class="grupo">
+                <div class="input-group">
                     <input type="submit" value="Enviar">
                 </div>
-            </fieldset>
+            </div>
         </form>
     </div>
 </body>
