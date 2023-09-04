@@ -1,0 +1,68 @@
+/* Reset de margens e preenchimentos */
+body, h1, h2, p, label {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo global da página */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to bottom, #ff6699, #ff0000, #00cc66);
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo do formulário e do campo de conjunto */
+#area {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do campo de conjunto */
+.grupo {
+    margin-bottom: 20px;
+}
+
+/* Estilo dos rótulos */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilo dos campos de entrada de texto */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Estilo do botão de envio */
+input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilo do botão de envio ao passar o mouse */
+input[type="submit"]:hover {
+    background-color: #333;
+}

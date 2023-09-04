@@ -18,13 +18,6 @@ window.addEventListener('load', () => {
     const mes = params.get('mes');
     const ano = params.get('ano');
 
-    // const comodante = sessionStorage.getItem("COMODANTE");
-    // const comodantecpf = sessionStorage.getItem("COMODANTECPF");
-    // const comodanteendereco = sessionStorage.getItem("COMODANTEENDERECO");
-    // const comandatario = sessionStorage.getItem("COMANDATARIO");
-    // const comandatariocpf = sessionStorage.getItem("COMANDATARIOCPF");
-    // const comandatarioenderaco = sessionStorage.getItem("COMANDATARIOENDERECO");
-
     document.getElementById('result-comodante').innerHTML = comodante;
     document.getElementById('result-comodante1').innerHTML = comodante1;
     document.getElementById('result-comodantecpf').innerHTML = comodantecpf;
