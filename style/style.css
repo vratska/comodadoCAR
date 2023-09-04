@@ -7,16 +7,18 @@ body, h1, h2, p, label {
 /* Estilo global da página */
 body {
     font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(to bottom, #ff6699, #ff0000, #00cc66);
-    color: #333;
+    background: linear-gradient(to bottom, #ff00ff, #000000);
+    color: #00ff00;
+    text-shadow: 1px 1px 2px #00ff00;
 }
 
 /* Estilo do cabeçalho */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #000000;
+    color: #ff00ff;
     text-align: center;
     padding: 20px;
+    border-bottom: 2px solid #00ff00;
 }
 
 /* Estilo do formulário e do campo de conjunto */
@@ -24,9 +26,9 @@ header {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
 }
 
 /* Estilo do campo de conjunto */
@@ -39,21 +41,26 @@ label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    color: #ff00ff;
+    text-shadow: none;
 }
 
 /* Estilo dos campos de entrada de texto */
 input[type="text"] {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid #00ff00;
     border-radius: 3px;
     font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #00ff00;
+    max-width: 95%;
 }
 
 /* Estilo do botão de envio */
 input[type="submit"] {
-    background-color: #000;
-    color: #fff;
+    background-color: #00ff00;
+    color: #000000;
     padding: 10px 20px;
     border: none;
     border-radius: 3px;
@@ -64,5 +71,5 @@ input[type="submit"] {
 
 /* Estilo do botão de envio ao passar o mouse */
 input[type="submit"]:hover {
-    background-color: #333;
+    background-color: #ff00ff;
 }
